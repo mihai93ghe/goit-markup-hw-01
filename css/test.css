@@ -1,0 +1,70 @@
+:root {
+  --font-family: "DM Sans", sans-serif;
+  --second-family: "Titan One", sans-serif;
+  --strong-red: #d41443;
+  /* background hero + some */
+  --pale-pink: #ffb8ca;
+  --pale-red: #ffa5ba;
+  /* background how-its-made + footer */
+  --very-pale-red: #fff5f6;
+  --very-soft-orange: #f0d1a5;
+  --very-soft-green: #c2e297;
+  /* background comentariu */
+  --very-light-gray: #fafafa;
+  /* social links fill  */
+  --very-soft-red: #fea5bb;
+  --white: #ffffff;
+  --grey: #ecebeb;
+  --contacts-card-text: #907e82;
+}
+
+.footer-contact-card {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  width: 280px;
+  height: 412px;
+  box-shadow: 0 8px 30px 0 rgba(212, 20, 67, 0.1);
+  background: #fff;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.cafe-contact-card-title {
+  border: 1px solid;
+  width: 80px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--very-soft-orange);
+  color: #ffffff;
+  border-radius: 4px;
+  margin-left: 32px;
+}
+
+.food-contact-card-title {
+  border: 1px solid;
+  width: 130px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--very-soft-green);
+  color: #ffffff;
+  border-radius: 4px;
+  margin-left: 32px;
+}
+
+.contact-card-content {
+  list-style-type: none;
+}
+
+.card-description {
+  color: var(--contacts-card-text);
+}
+
+.card-program {
+  color: var(--pale-red);
+}
