@@ -16,6 +16,7 @@
   --white: #ffffff;
   --grey: #ecebeb;
   --contacts-card-text: #907e82;
+  --copyright-line-grey: #e1e1e1;
 }
 
 .footer-contact-card {
@@ -67,4 +68,24 @@
 
 .card-program {
   color: var(--pale-red);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info > a {
+  text-decoration: none;
+  color: var(--contacts-card-text);
+}
+
+.card-section-title {
+  font-weight: 500;
+}
+
+hr {
+  display: flex;
+  border: 0;
+  border-bottom: 1px solid var(--copyright-line-grey);
 }
